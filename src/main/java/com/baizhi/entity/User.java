@@ -1,7 +1,7 @@
 package com.baizhi.entity;
 
 import java.util.Date;
-
+//这是从远端传过来的修改的数据
 public class User {
     //指定某些属性不参与JSON协议串的转换
    // @JSONField(serialize = false)
