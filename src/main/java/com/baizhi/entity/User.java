@@ -14,7 +14,7 @@ public class User {
     //指定该日期转换为JSON协议串的格式
     //@JSONField(format = "yyyy-MM-dd")
     private  Date   date;
-
+    //这是后台修改的传给前端的数据    
     public User(String id, String username, String password, Integer age, Date date) {
         this.id = id;
         this.username = username;
